@@ -39,3 +39,23 @@ cd /d/MathTool
 git remote add origin https://github.com/surisan/Math_box.git
 git push -u origin master
 
+# 파일 추가 README.md
+git add .
+git commit -m "Create README.md"
+git push
+
+# github에서 파일 편집
+git pull
+
+git clone https://github.com/numpy/numpy.git
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+git log
+git log --pretty=oneline
+
+git show 8be2 # hash id 첫 네 자리
+
+git add .
+git commit
