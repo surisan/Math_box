@@ -1,0 +1,24 @@
+mkdir MathTool
+git init
+git config user.name "surisan"
+git config user.email "surisan33@gmail.com"
+
+git add calculator.py
+git add License
+git commit -m "create calculator.py and License"
+ root-commit: 첫번째 commit
+
+# 파일 수정
+git add calculator.py
+git status
+git add License
+git status
+
+mkdir meeting-log
+cd meeting-log
+touch day1
+touch day2
+cd ..
+git add meeting-log
+git status
+
