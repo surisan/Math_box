@@ -83,3 +83,18 @@ git show VERSION_1
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # 1
+git status
+git add .
+git commit -m "finalize before branch"
+git push
+git status
+
+git branch premium
+git checkout premium
+
+# License 변경 free -> premium
+git add .
+git commit -m "Change License from free to premium"
+cat License
+
+git checkout master
