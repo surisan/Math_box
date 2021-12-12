@@ -59,3 +59,27 @@ git show 8be2 # hash id 첫 네 자리
 
 git add .
 git commit
+
+git commit --amend
+
+git diff hash-id1 hash-id2
+
+git reset --hard
+git reset --soft
+git reset --mixed
+
+# 13
+git reset --soft HEAD^  # 직전으로
+git reset --soft HEAD~2 # 2번째 전으로
+
+# 14
+git tag VERSION_1 hash-id1
+git tag VERSION_2 hash-id2
+git tag
+
+git show VERSION_1
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# 1
