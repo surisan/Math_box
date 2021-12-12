@@ -91,3 +91,13 @@ git status
 
 git branch premium
 git checkout premium
+<<<<<<< HEAD
+=======
+
+# License 변경 free -> premium
+git add .
+git commit -m "Change License from free to premium"
+cat License
+
+git checkout master
+>>>>>>> master
