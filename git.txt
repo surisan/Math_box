@@ -83,3 +83,11 @@ git show VERSION_1
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # 1
+git status
+git add .
+git commit -m "finalize before branch"
+git push
+git status
+
+git branch premium
+git checkout premium
